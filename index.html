@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디즈니 공주 테스트</title>
+</head>
+<link rel="stylesheet" href="./css/main.css">
+
+<!-- 카카오톡 공유하기 기능 -->
+<script type="text/JavaScript" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<!-- <script>Kakao.init('JAVASCRIPT_KEY');
+    console.log(Kakao.isInitialized("0db18cee9fb123f2eac1670d86906511"));
+</script> -->
+<script src="./script/kakao.js"></script>
+<script src="./script/main.js"></script>
+
+
+
+<body onselectstart="return false;">
+    <section class="container">
+        <div class="title">
+            <div>디즈니 공주 유형 테스트</div>
+            <div>나는 어떤 공주와 제일 비슷할까?</div>
+        </div>
+        <div class="main__img">
+            <img src="./img/princess.png" alt="princesses">
+        </div>
+        <div class="btn">
+            <input type="button" class="btn--start" value="> 테스트 시작하기">
+        </div>
+        <div class="language">
+            <div class="language__option">English</div>
+            <div class="language__option">日本語</div>
+            <div class="language__option">한국어</div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="bar">
+            <div class="bar__statement"></div>
+        </div>
+        <div class="question__area">
+            <div class="inner">
+                <div class="question">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="options">
+                    <div class="option">
+                    </div>
+                    <div class="option">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="result">
+        <div class="img_box">
+            <img id="princess_img" src="" alt="공주 이미지">
+        </div>
+        <div class="result__box">
+            <div class="char_name"></div>
+            <div class="seperator"></div>
+            <div class="result_description">
+            </div>
+            <div class="match">
+                <div class="good-match">
+                    <div class="good-title">좋은 궁합</div>
+                    <div class="good-princess">
+                        
+                    </div>
+                </div>
+                
+                <div class="bad-match">
+                    <div class="bad-title">나쁜 궁합</div>
+                    <div class="bad-princess">
+
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="button" class="btn--reset" value="테스트 다시 하기">
+            </div>
+            <div class="btn">
+                <input type="button" class="btn--share" onClick="sendLinkDefault();" value="공유하기" />
+            </div>
+        </div>
+    </section>
+</body>
+</html>
