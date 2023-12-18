@@ -621,7 +621,7 @@ window.onload = function() {
                 changeFonts('en');
                 //초기 페이지 화면 영어로 변경 
                 document.querySelector(".container>.title>div:first-child").innerText = "Disney Princess Test";
-                document.querySelector(".container>.title>div:nth-child(2)").innerText = "Which princess am I most similar to?";
+                document.querySelector(".container>.title>div:nth-child(2)").innerText = "Which Disney Princess Are You?";
                 document.querySelector(".btn--start").value = "Start the test";
                 break;
             case "日本語": 
