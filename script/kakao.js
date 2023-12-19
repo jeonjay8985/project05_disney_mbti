@@ -20,8 +20,8 @@ function sendLinkCustom() {
           imageUrl:
             'https://i0.wp.com/overthebigmoon.com/wp-content/uploads/2015/06/disney-princess-printables.jpg?resize=460%2C575&ssl=1/',
           link: {
-            mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
-            webUrl: 'https://project04-disney-mbti.netlify.app/',
+            mobileWebUrl: 'https://project05-disney-mbti.netlify.app/',
+            webUrl: 'https://project05-disney-mbti.netlify.app/',
           },
         },
         social: {
@@ -33,15 +33,15 @@ function sendLinkCustom() {
           {
             title: '웹으로 보기',
             link: {
-              mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
-              webUrl: 'https://project04-disney-mbti.netlify.app/',
+              mobileWebUrl: 'https://project05-disney-mbti.netlify.app/',
+              webUrl: 'https://project05-disney-mbti.netlify.app/',
             },
           },
           {
             title: '앱으로 보기',
             link: {
-              mobileWebUrl: 'https://project04-disney-mbti.netlify.app/',
-              webUrl: 'https://project04-disney-mbti.netlify.app/',
+              mobileWebUrl: 'https://project05-disney-mbti.netlify.app/',
+              webUrl: 'https://project05-disney-mbti.netlify.app/',
             },
           },
         ],
